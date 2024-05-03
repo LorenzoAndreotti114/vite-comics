@@ -3,6 +3,7 @@
     import MainApp from './components/MainApp.vue';
     import IconsApp from './components/IconsApp.vue';
     import FooterApp from './components/FooterApp.vue';
+    import FooterBarApp from './components/FooterBarApp.vue';
 
     export default {
         components: {
@@ -10,6 +11,7 @@
             MainApp,
             IconsApp,
             FooterApp,
+            FooterBarApp,
         },
 
     }
@@ -25,6 +27,8 @@
     <IconsApp />
 
     <FooterApp />
+
+    <FooterBarApp />
   
 </template>
 
