@@ -1,20 +1,17 @@
 <script>
     import HeaderApp from './components/HeaderApp.vue';
     import MainApp from './components/MainApp.vue';
-    import AppFooter from './components/AppFooter.vue';
+    import IconsApp from './components/IconsApp.vue';
+    import FooterApp from './components/FooterApp.vue';
 
     export default {
         components: {
             HeaderApp,
             MainApp,
-            AppFooter,
+            IconsApp,
+            FooterApp,
         },
-        
-        data() {
-            return {
 
-            }
-        }
     }
 
 </script>
@@ -25,7 +22,9 @@
 
     <MainApp />
 
-    <AppFooter />
+    <IconsApp />
+
+    <FooterApp />
   
 </template>
 

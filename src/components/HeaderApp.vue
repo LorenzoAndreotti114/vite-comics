@@ -59,65 +59,65 @@
 
 <style scoped>
 
-img {
-    object-fit: contain;
-    padding: 2%;
-}
-
-ul {
-    height: 100%;
-}
-
-li {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    list-style-type: none;
-
-    &:hover {
-        border-bottom: 6px solid blue;
-
-        a {
-            color: blue;
-        }
-
+    img {
+        object-fit: contain;
+        padding: 2%;
     }
-}
 
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    /* DEBUG */
-    height: 120px;
-    background-color: aqua;
-}
-
-.left-h {
-    width: 30%;
-    height: 100%;
-}
-
-.right-h {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     ul {
+        height: 100%;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+
+        &:hover {
+            border-bottom: 6px solid blue;
+
+            a {
+                color: rgb(0, 102, 255);
+            }
+
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        height: 13vh;
+    }
+
+    .left-h {
+        display: flex;
+        width: 35%;
+        height: 100%;
+    }
+
+    .right-h {
+        width: 65%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        li {
-            padding: 0% 2%;
+            li {
+                padding: 0% 2%;
+            }
         }
     }
-}
 
 </style>
