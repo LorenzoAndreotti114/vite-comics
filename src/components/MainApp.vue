@@ -1,34 +1,49 @@
 <script>
+    import CardBanner from './CardBanner.vue';
 
+    export default {
+
+        components: {
+            CardBanner,
+        },
+
+        data() {
+            return {
+
+            }
+        }
+    }
 </script>
 
 <template>
     <div class="container">
-        <div class="inner-container">
-            <h2>--> Content goes here <--</h2>
+
+        <div class="top-banner">
+            <img src="/src/assets/img/jumbotron.jpg" alt="">
         </div>
+
+
+        <CardBanner />
+
     </div>
 </template>
 
 <style scoped>
 
-    h2 {
-        color: white;
-        font-size: 1.5vw;
+    img {
+        object-fit: cover;
+        object-position: 0 0;
     }
 
     .container {
         width: 100%;
-        height: 13vh;
-        background-color: black;
+        height: 120vh;
+        background-color: rgb(37, 37, 37);
     }
 
-    .inner-container {
-        height: 100%;
-        width: 35%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .top-banner {
+        height: 30%;
+        width: 100%;
     }
 
 </style>
